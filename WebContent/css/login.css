@@ -1,0 +1,51 @@
+#background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+#background>img{
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+#box{
+	position: absolute;
+	width: 862px;
+	height: 561px;
+	left: 50%;
+	top: 50%;
+	margin-left: -431px;
+	margin-top: -280px;
+}
+#head{
+	height: 266px;
+	background: url(../img/login_04.gif);
+}
+#left{
+	float: left;
+	height: 95px;
+	width: 424px;
+	background: url(../img/login_06.gif);
+}
+#right{
+	float: right;
+	height: 95px;
+	width: 255px;
+	background: url(../img/login_08.gif);
+}
+#middle{
+	float: left;
+	height: 95px;
+	width: 183px;
+	background: url(../img/login_07.gif);
+}
+#footer{
+	clear: both;
+	background: url(../img/login_09.gif);
+	height: 200px;
+}
+
+
